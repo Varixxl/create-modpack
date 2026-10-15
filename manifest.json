@@ -1,5 +1,5 @@
 {
-  "latest_version": "1.0.1",
+  "latest_version": "1.0.2",
   "base_package": {
     "version": "1.0.0",
     "url": "https://github.com/JaviDaBomb/create-modpack/releases/download/v1.0.0/base-v1.0.0.zip",
@@ -13,6 +13,14 @@
       "sha256": "0ba71f1449ea853861741fd882b4e5a85926750fcbf9042def941ae1834f9b25",
       "delete_files": [],
       "changelog": "Universal 1440p H.264 main menu video & default settings sync"
+    },
+    {
+      "from_version": "1.0.1",
+      "to_version": "1.0.2",
+      "url": "https://github.com/JaviDaBomb/create-modpack/releases/download/v1.0.2/patch-v1.0.2.zip",
+      "sha256": "02b5b182e5700e885e28e2ab5e4f94231c760a14a4575ce5e9328a7342c97203",
+      "delete_files": [],
+      "changelog": "Startup stability: 1280x720 windowed launch & early loading display"
     }
   ]
 }
