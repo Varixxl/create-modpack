@@ -26,6 +26,7 @@ cp -r "$ROOT_DIR/config" "$TEMP_DIR/"
 [ -d "$ROOT_DIR/natives" ] && cp -r "$ROOT_DIR/natives" "$TEMP_DIR/"
 [ -f "$ROOT_DIR/1.20.1.jar" ] && cp "$ROOT_DIR/1.20.1.jar" "$TEMP_DIR/"
 [ -f "$ROOT_DIR/version.json" ] && cp "$ROOT_DIR/version.json" "$TEMP_DIR/"
+[ -f "$ROOT_DIR/options.txt" ] && cp "$ROOT_DIR/options.txt" "$TEMP_DIR/"
 
 echo "[2/3] Compressing base-v1.0.0.zip..."
 (cd "$TEMP_DIR" && zip -q -r "$BASE_ZIP" .)
