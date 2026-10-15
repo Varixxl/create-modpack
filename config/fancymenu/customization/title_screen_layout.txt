@@ -2,14 +2,25 @@ type = fancymenu_layout
 
 layout-meta {
   identifier = title_screen
-  render_custom_elements_behind_vanilla = true
-  last_edited_time = 1791591000000
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1791587408084
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
   [loading_requirement_container_meta:c882fdd6-2b34-449b-a4e8-f79b013da274-1791586606564] = [groups:][instances:]
+}
+
+customization {
+  action = setscale
+  scale = 3.0
+}
+
+customization {
+  action = autoscale
+  basewidth = 2560
+  baseheight = 1440
 }
 
 menu_background {
@@ -28,8 +39,7 @@ menu_background {
 menu_background {
   instance_identifier = c1c4fb6f-a3c3-4e1d-abed-6ed5c03fb78d-1791174320129
   background_type = image
-  show_background = true
-  source = [source:local]config/fancymenu/assets/main_menu_bg.png
+  show_background = false
   slide = false
   repeat_texture = false
   parallax = false
@@ -46,10 +56,10 @@ menu_background {
 }
 
 menu_background {
-  instance_identifier = 2b7d4a5a-80b7-4b04-939f-039f03735e95-1791232441376
+  instance_identifier = ca6e77c7-6d3c-4450-8412-9bc4290d858e-1791174320130
   background_type = video
   show_background = true
-  source = [source:local]config/fancymenu/assets/sfx.mp4
+  source = [source:location]fancymenu:videos/sfx.mp4
   loop = true
   volume = 0.0
   sound_source = master
@@ -421,6 +431,63 @@ element {
   nine_slice_border_y = 5
   nine_slice_slider_handle_border_x = 5
   nine_slice_slider_handle_border_y = 5
+}
+
+element {
+  item_key = minecraft:enchanted_golden_apple
+  enchanted = false
+  show_tooltip = false
+  custom_nbt_data = {"placeholder":"playername"}%!n!%{"placeholder":"oscpu"}%!n!%{"placeholder":"percentram"}%!n!%{"placeholder":"javaver"}%!n!%{"placeholder":"fps"}%!n!%{"placeholder":"mcversion"}%!n!%
+  element_type = item
+  instance_identifier = 92729bbf-1ee7-4e63-ad69-9f1043d7bca3-1791174524860
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = first_time
+  fade_out = no_fading
+  auto_sizing = false
+  auto_sizing_base_screen_width = 2562
+  auto_sizing_base_screen_height = 1440
+  auto_sizing_base_gui_scale = 3.0
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = -117
+  y = -87
+  width = 100
+  height = 34
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 9d8f0190-8397-43b3-8cec-dedcf0843715-1791174524860
+  [loading_requirement_container_meta:9d8f0190-8397-43b3-8cec-dedcf0843715-1791174524860] = [groups:][instances:]
+  enable_parallax = false
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+  advanced_rotation_mode = false
+  advanced_vertical_tilt_mode = false
+  advanced_horizontal_tilt_mode = false
+  should_be_affected_by_decoration_overlays = false
+  in_editor_color = #FFC800FF
+  advanced_posx = -2147483648
+  advanced_posy = -2147483648
+  advanced_width = -2147483648
+  advanced_height = -2147483648
+  stretch_x = false
+  stretch_y = false
+  appearance_delay_seconds = 1.0
+  disappearance_delay_seconds = 1.0
+  fade_in_speed = 4.0
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
+  rotation_degrees = -4.0
+  advanced_rotation_degrees = 0.0
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_degrees = 0.0
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_degrees = 0.0
+  item_count = 1
 }
 
 element {

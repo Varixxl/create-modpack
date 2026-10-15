@@ -1,5 +1,5 @@
 {
-  "latest_version": "1.0.5",
+  "latest_version": "1.0.6",
   "base_package": {
     "version": "1.0.0",
     "url": "https://github.com/JaviDaBomb/create-modpack/releases/download/v1.0.0/base-v1.0.0.zip",
@@ -45,6 +45,16 @@
       "sha256": "04a44af2b50b076191ef90681ec67f50f797dea3a5859fc9c7c88d5b004a094d",
       "delete_files": [],
       "changelog": "Fix Windows UI scaling, title screen video decoder, and block interaction audio"
+    },
+    {
+      "from_version": "1.0.5",
+      "to_version": "1.0.6",
+      "url": "https://github.com/JaviDaBomb/create-modpack/releases/download/v1.0.6/patch-v1.0.6.zip",
+      "sha256": "f6e8ffd130294c657d88297f8690f3b86c647db38b3125924c2a137a90abb89e",
+      "delete_files": [
+        "config/fancymenu/assets/sfx.mp4"
+      ],
+      "changelog": "Revert modpack configurations back to v1.2.8 baseline and upgrade to Zulu 21 JRE"
     }
   ]
 }
