@@ -1,5 +1,5 @@
 {
-  "latest_version": "v1.0.8",
+  "latest_version": "v1.0.9",
   "base_package": {
     "version": "1.0.0",
     "url": "https://github.com/JaviDaBomb/create-modpack/releases/download/v1.0.0/base-v1.0.0.zip",
@@ -71,6 +71,14 @@
       "sha256": "1ccd2283c46e202008da5543eac80c588ab36c7229592b097c0996799a05b1c9",
       "delete_files": [],
       "changelog": "Windows OpenAL Audio & Video Synchronization Fix"
+    },
+    {
+      "from_version": "v1.0.8",
+      "to_version": "v1.0.9",
+      "url": "https://github.com/JaviDaBomb/create-modpack/releases/download/vv1.0.9/patch-vv1.0.9.zip",
+      "sha256": "91269f92447e5714db2b6327a582f76dc1977767322be5e8916f0be2796a364b",
+      "delete_files": [],
+      "changelog": "Windows Sound Engine Assets & Main Menu Video Fix"
     }
   ]
 }
