@@ -12,6 +12,17 @@ layout-meta {
   [loading_requirement_container_meta:759f665c-caef-4076-a0de-960fd3bdbdf8-1791236000000] = [groups:][instances:]
 }
 
+customization {
+  action = setscale
+  scale = 3.0
+}
+
+customization {
+  action = autoscale
+  basewidth = 2560
+  baseheight = 1440
+}
+
 scroll_list_customization {
   preserve_scroll_list_header_footer_aspect_ratio = true
   render_scroll_list_header_shadow = true
