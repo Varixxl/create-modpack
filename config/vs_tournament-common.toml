@@ -1,0 +1,54 @@
+
+[server]
+	#The force a spinner applies to a ship
+	#Range: 0.0 ~ 1.7976931348623157E308
+	spinnerSpeed = 5000.0
+	#The force a balloon applies to a ship
+	#Range: 0.0 ~ 1.7976931348623157E308
+	balloonPower = 30.0
+	#How much stronger a powered balloon will get when powered (1.0 is 15x stronger at max power)
+	#Range: 0.0 ~ 1.7976931348623157E308
+	poweredBalloonAnalogStrength = 2.0
+	#Base height of a balloon
+	#Range: 0.0 ~ 1.7976931348623157E308
+	balloonBaseHeight = 100.0
+	#The force a thruster applies to a ship * tier
+	#Range: 0.0 ~ 1.7976931348623157E308
+	thrusterSpeed = 10000.0
+	#The maximum amount of tiers a normal thruster can have (1-5)
+	#Range: 1 ~ 5
+	thrusterTiersNormal = 5
+	#The maximum amount of tiers a tiny thruster can have (1-5)
+	#Range: 1 ~ 1
+	thrusterTiersTiny = 1
+	#The force multiplier of a tiny thruster
+	#Range: 0.0 ~ 1.0
+	thrusterTinyForceMultiplier = 0.2
+	#The speed at which the thruster will stop applying force. (-1 means that it always applies force)
+	#Range: -1.0 ~ 1.7976931348623157E308
+	thrusterShutoffSpeed = -1.0
+	#The weight of a ballast when not redstone powered
+	#Range: 0.0 ~ 1.7976931348623157E308
+	ballastWeight = 10000.0
+	#The weight of a ballast when redstone powered
+	#Range: 0.0 ~ 1.7976931348623157E308
+	ballastNoWeight = 800.0
+	#The force the pulse gun applies to a ship
+	#Range: 0.0 ~ 1.7976931348623157E308
+	pulseGunForce = 300.0
+	#Maximum speed of big propeller
+	#Range: 0.0 ~ 1.7976931348623157E308
+	propellerBigSpeed = 10.0
+	#Acceleration rate of big propeller
+	#Range: 0.0 ~ 1.7976931348623157E308
+	propellerBigAccel = 0.5
+	#Maximum speed of small propeller
+	#Range: 0.0 ~ 1.7976931348623157E308
+	propellerSmallSpeed = 5.0
+	#Acceleration rate of small propeller
+	#Range: 0.0 ~ 1.7976931348623157E308
+	propellerSmallAccel = 0.2
+	#Maximum distance a sensor can detect a ship from
+	#Range: 0.0 ~ 1.7976931348623157E308
+	sensorDistance = 10.0
+

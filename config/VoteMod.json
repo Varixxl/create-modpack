@@ -1,0 +1,20 @@
+{
+  "commandAlias": "vote",
+  "configVotes": [
+    {
+      "command": "time set day",
+      "alias": "day",
+      "desc": "set the time to daytime"
+    },
+    {
+      "command": "time set day",
+      "alias": "daytime",
+      "desc": "set the time to daytime"
+    },
+    {
+      "command": "weather clear",
+      "alias": "sun",
+      "desc": "clear the weather"
+    }
+  ]
+}

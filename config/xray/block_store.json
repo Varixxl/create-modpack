@@ -1,0 +1,247 @@
+[
+  {
+    "name": "Gold Ore",
+    "blockName": "minecraft:gold_ore",
+    "order": 8,
+    "color": 4134039,
+    "drawing": false
+  },
+  {
+    "name": "Deepslate Lithium Ore",
+    "blockName": "tfmg:deepslate_lithium_ore",
+    "order": 26,
+    "color": 13981701,
+    "drawing": true
+  },
+  {
+    "name": "Sulfur Ore",
+    "blockName": "crusty_chunks:sulfur_ore",
+    "order": 32,
+    "color": 10915572,
+    "drawing": true
+  },
+  {
+    "name": "Lithium Ore",
+    "blockName": "crusty_chunks:lithium_ore",
+    "order": 34,
+    "color": 5324809,
+    "drawing": true
+  },
+  {
+    "name": "Diamond Ore",
+    "blockName": "minecraft:diamond_ore",
+    "order": 4,
+    "color": 8994061,
+    "drawing": false
+  },
+  {
+    "name": "Deepslate Nickel Ore",
+    "blockName": "tfmg:deepslate_nickel_ore",
+    "order": 24,
+    "color": 13534829,
+    "drawing": true
+  },
+  {
+    "name": "Lithium Ore",
+    "blockName": "tfmg:lithium_ore",
+    "order": 25,
+    "color": 12045670,
+    "drawing": true
+  },
+  {
+    "name": "Redstone Ore",
+    "blockName": "minecraft:redstone_ore",
+    "order": 15,
+    "color": 14103104,
+    "drawing": false
+  },
+  {
+    "name": "Zinc Ore",
+    "blockName": "crusty_chunks:zinc_ore",
+    "order": 27,
+    "color": 13231997,
+    "drawing": true
+  },
+  {
+    "name": "Deepslate Iron Ore",
+    "blockName": "minecraft:deepslate_iron_ore",
+    "order": 12,
+    "color": 4904630,
+    "drawing": false
+  },
+  {
+    "name": "Beryllium Ore",
+    "blockName": "crusty_chunks:beryllium_ore",
+    "order": 33,
+    "color": 4223707,
+    "drawing": true
+  },
+  {
+    "name": "Iron Ore",
+    "blockName": "minecraft:iron_ore",
+    "order": 11,
+    "color": 15099735,
+    "drawing": false
+  },
+  {
+    "name": "Coal Ore",
+    "blockName": "minecraft:coal_ore",
+    "order": 0,
+    "color": 15545167,
+    "drawing": false
+  },
+  {
+    "name": "Deepslate Lapis Lazuli Ore",
+    "blockName": "minecraft:deepslate_lapis_ore",
+    "order": 14,
+    "color": 1250413,
+    "drawing": false
+  },
+  {
+    "name": "Deepslate Lead Ore",
+    "blockName": "tfmg:deepslate_lead_ore",
+    "order": 22,
+    "color": 3496893,
+    "drawing": true
+  },
+  {
+    "name": "Lead Ore",
+    "blockName": "crusty_chunks:lead_ore",
+    "order": 28,
+    "color": 11133831,
+    "drawing": true
+  },
+  {
+    "name": "Nether Quartz Ore",
+    "blockName": "minecraft:nether_quartz_ore",
+    "order": 17,
+    "color": 3872992,
+    "drawing": false
+  },
+  {
+    "name": "Uranium Ore",
+    "blockName": "crusty_chunks:uranium_ore",
+    "order": 31,
+    "color": 13150589,
+    "drawing": true
+  },
+  {
+    "name": "Nickel Ore",
+    "blockName": "tfmg:nickel_ore",
+    "order": 23,
+    "color": 5122319,
+    "drawing": true
+  },
+  {
+    "name": "Deepslate Lead Ore",
+    "blockName": "crusty_chunks:deepslate_lead_ore",
+    "order": 30,
+    "color": 4460006,
+    "drawing": true
+  },
+  {
+    "name": "Deepslate Zinc Ore",
+    "blockName": "create:deepslate_zinc_ore",
+    "order": 20,
+    "color": 9873942,
+    "drawing": true
+  },
+  {
+    "name": "Emerald Ore",
+    "blockName": "minecraft:emerald_ore",
+    "order": 6,
+    "color": 4836650,
+    "drawing": false
+  },
+  {
+    "name": "Zinc Ore",
+    "blockName": "create:zinc_ore",
+    "order": 19,
+    "color": 12943809,
+    "drawing": true
+  },
+  {
+    "name": "Deepslate Coal Ore",
+    "blockName": "minecraft:deepslate_coal_ore",
+    "order": 1,
+    "color": 3370219,
+    "drawing": false
+  },
+  {
+    "name": "Nickel Ore",
+    "blockName": "crusty_chunks:nickel_ore",
+    "order": 29,
+    "color": 219185,
+    "drawing": true
+  },
+  {
+    "name": "Nether Gold Ore",
+    "blockName": "minecraft:nether_gold_ore",
+    "order": 9,
+    "color": 7696547,
+    "drawing": false
+  },
+  {
+    "name": "Deepslate Diamond Ore",
+    "blockName": "minecraft:deepslate_diamond_ore",
+    "order": 5,
+    "color": 14609782,
+    "drawing": false
+  },
+  {
+    "name": "Lead Ore",
+    "blockName": "tfmg:lead_ore",
+    "order": 21,
+    "color": 12402891,
+    "drawing": true
+  },
+  {
+    "name": "Deepslate Redstone Ore",
+    "blockName": "minecraft:deepslate_redstone_ore",
+    "order": 16,
+    "color": 6105954,
+    "drawing": false
+  },
+  {
+    "name": "Deepslate Gold Ore",
+    "blockName": "minecraft:deepslate_gold_ore",
+    "order": 10,
+    "color": 6907792,
+    "drawing": false
+  },
+  {
+    "name": "Copper Ore",
+    "blockName": "minecraft:copper_ore",
+    "order": 2,
+    "color": 14583604,
+    "drawing": false
+  },
+  {
+    "name": "Deepslate Emerald Ore",
+    "blockName": "minecraft:deepslate_emerald_ore",
+    "order": 7,
+    "color": 4438366,
+    "drawing": false
+  },
+  {
+    "name": "Ancient Debris",
+    "blockName": "minecraft:ancient_debris",
+    "order": 18,
+    "color": 2237036,
+    "drawing": true
+  },
+  {
+    "name": "Deepslate Copper Ore",
+    "blockName": "minecraft:deepslate_copper_ore",
+    "order": 3,
+    "color": 6875613,
+    "drawing": false
+  },
+  {
+    "name": "Lapis Lazuli Ore",
+    "blockName": "minecraft:lapis_ore",
+    "order": 13,
+    "color": 1798287,
+    "drawing": false
+  }
+]

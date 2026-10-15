@@ -1,0 +1,13 @@
+#Minimum time in ticks for leaf and branch decay. Must be lower than MaximumDecayTime!
+#Range: > 0
+MinimumDecayTime = 1
+#Maximum time in ticks for leaf and branch decay. Must be higher than MinimumDecayTime!
+#Range: > 0
+MaximumDecayTime = 3
+#Maximum search distance from a trunk log to consider leaves or branches connected to a tree.
+#Range: 1 ~ 32
+MaxTreeDistance = 10
+#Whether to check diagonal connections (26 directions) between leaves and branches.
+CheckDiagonals = true
+#Whether decaying leaves and branches drop their normal items.
+DropLoot = true

@@ -1,0 +1,3 @@
+R:minecraft:crafting#create:crafting/materials/andesite_alloy#item_stack&create:andesite_alloy
+R:minecraft:crafting#create:crafting/kinetics/shaft#item_stack&create:shaft
+R:minecraft:crafting#create:crafting/kinetics/belt_connector#item_stack&create:belt_connector

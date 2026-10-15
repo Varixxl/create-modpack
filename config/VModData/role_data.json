@@ -1,0 +1,13 @@
+{
+  "rolesPermissions" : {
+    "default" : [ "Allow RopeMode", "Allow ScaleMode", "Allow StripMode", "Allow SchemMode", "Allow GravChangerMode", "Allow SyncRotation", "Allow ShipRemoverMode", "Allow ConnectionMode", "Allow HydraulicsMode", "Allow SliderMode", "Allow ThrusterMode", "Allow DisableCollisionsMode", "Allow PhysRopeMode" ]
+  },
+  "playersRoles" : {
+    "a83eb331-3a68-4d71-90e0-5a576b6bb06d" : {
+      "uuid" : "a83eb331-3a68-4d71-90e0-5a576b6bb06d",
+      "nickname" : "SbeevYT",
+      "role" : "default"
+    }
+  },
+  "allRoles" : [ "default" ]
+}

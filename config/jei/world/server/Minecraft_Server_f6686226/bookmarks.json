@@ -1,0 +1,8 @@
+[
+  {"version":1},
+  {"type":"recipe","value":"minecraft:crafting#create:crafting/materials/andesite_alloy#item_stack\u0026create:andesite_alloy"},
+  {"type":"recipe","value":"minecraft:crafting#create:crafting/kinetics/shaft#item_stack\u0026create:shaft"},
+  {"type":"recipe","value":"minecraft:crafting#create:crafting/kinetics/belt_connector#item_stack\u0026create:belt_connector"},
+  {"type":"recipe","value":"minecraft:crafting#ae2:decorative/quartz_glass#item_stack\u0026ae2:quartz_glass"},
+  {"type":"item_stack","value":"{Count:1b,id:\"crusty_chunks:beryllium_block\"}"}
+]

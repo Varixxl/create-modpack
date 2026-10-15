@@ -1,0 +1,7 @@
+#Fri Oct 09 20:56:16 CDT 2026
+LPV_CLOUDY_FOG=true
+SHADOW_ENTITIES=true
+VL_SAMPLES=12
+VOXEL_VOLUME_SIZE=256
+shadowDistance=512.0
+shadowMapResolution=4096

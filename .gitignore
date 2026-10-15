@@ -1,0 +1,23 @@
+# Binaries & large dependencies (distributed via Releases)
+mods/
+libraries/
+1.20.1.jar
+*.jar
+
+# Patch archives & builds
+dist-patches/
+*.zip
+*.tar.gz
+
+# Runtime logs and cache
+logs/
+crash-reports/
+.cache/
+*.log
+.DS_Store
+
+# User-specific runtime states (if run locally)
+saves/
+screenshots/
+usercache.json
+usernamecache.json
