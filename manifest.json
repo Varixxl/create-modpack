@@ -1,5 +1,5 @@
 {
-  "latest_version": "1.0.3",
+  "latest_version": "1.0.4",
   "base_package": {
     "version": "1.0.0",
     "url": "https://github.com/JaviDaBomb/create-modpack/releases/download/v1.0.0/base-v1.0.0.zip",
@@ -29,6 +29,14 @@
       "sha256": "4255cde49fd0ea6152bf48a56d3c3cbc09242ae50664107c6e937b254f778389",
       "delete_files": [],
       "changelog": "Fix Windows title screen missing texture video background"
+    },
+    {
+      "from_version": "1.0.3",
+      "to_version": "1.0.4",
+      "url": "https://github.com/JaviDaBomb/create-modpack/releases/download/v1.0.4/patch-v1.0.4.zip",
+      "sha256": "dc4bfefc55f0cf85f5a3ac015b4a999bd0d0d1c77a52d166318f35c088a44eed",
+      "delete_files": [],
+      "changelog": "Fix OpenGL state collision on title screen video initialization"
     }
   ]
 }
