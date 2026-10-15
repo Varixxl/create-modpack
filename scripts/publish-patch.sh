@@ -178,6 +178,7 @@ git add "$MANIFEST_FILE" "$INDEX_FILE"
 [ -d tacz ] && git add tacz/ || true
 [ -f servers.dat ] && git add servers.dat || true
 [ -f options.txt ] && git add options.txt || true
+[ -f .gitignore ] && git add .gitignore || true
 [ -d scripts ] && git add scripts/ || true
 
 git commit -m "chore(release): bump modpack to v${NEW_VERSION} - ${CHANGELOG}" || true
