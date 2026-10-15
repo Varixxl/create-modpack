@@ -110,7 +110,7 @@ logSystemInformation = false
 
     # Enables hardware-accelerated video decoding (NVDEC, QuickSync, D3D11VA, VAAPI...)
     # Disable if you experience stutter, lag or black video — software decoding is often smoother on some GPUs (notably AMD)
-    hardwareAccel = true
+    hardwareAccel = false
 
     # Configures how many audio packets read when video has an audio slave
     # Increment this value if you find YouTube videos with slow playback
@@ -129,7 +129,7 @@ logSystemInformation = false
     # Higher values help FFmpeg detect audio/video parameters (sample rate, channels) on slow or live HLS streams, at the cost of startup latency
     # Zero leaves FFmpeg's own default in place
     # Value must be less than '60000' and greater than '0'
-    analyzeDuration = 7000
+    analyzeDuration = 0
 
     # FFMediaPlayer stream probing size (FFmpeg probesize), in megabytes
     # Higher values let FFmpeg read more data while detecting stream parameters, improving codec detection on streams with sparse headers
