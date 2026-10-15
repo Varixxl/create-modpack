@@ -63,7 +63,7 @@ logSystemInformation = false
   # Used only on client-side
   # Value must match with ^https?://([a-zA-Z0-9]([a-zA-Z0-9\-]*[a-zA-Z0-9])?)(\.([a-zA-Z0-9]([a-zA-Z0-9\-]*[a-zA-Z0-9])?))*(:\d{1,5})?(/.*)?$
   # Allows (non-null) empty values
-  remoteHost = "http://localhost:25572/"
+  remoteHost = ""
 
   # The password to access the server, change this every time you have to update your server and the client to prevent external access and bandwidth abuse
   # Used on server-side and client-side
@@ -110,7 +110,7 @@ logSystemInformation = false
 
     # Enables hardware-accelerated video decoding (NVDEC, QuickSync, D3D11VA, VAAPI...)
     # Disable if you experience stutter, lag or black video — software decoding is often smoother on some GPUs (notably AMD)
-    hardwareAccel = true
+    hardwareAccel = false
 
     # Configures how many audio packets read when video has an audio slave
     # Increment this value if you find YouTube videos with slow playback

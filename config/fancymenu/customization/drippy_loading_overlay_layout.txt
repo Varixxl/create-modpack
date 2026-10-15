@@ -12,17 +12,6 @@ layout-meta {
   [loading_requirement_container_meta:e657262a-ba76-4b93-a7ea-f16ef74ac104-1791230988267] = [groups:][instances:]
 }
 
-customization {
-  action = setscale
-  scale = 3.0
-}
-
-customization {
-  action = autoscale
-  basewidth = 2560
-  baseheight = 1440
-}
-
 menu_background {
   instance_identifier = a785b04c-5664-4492-b144-cab9d730fd1a-1791173026141
   background_type = color_fancymenu
