@@ -41,7 +41,7 @@ if os.path.exists(index_file):
 
 # Directories and files to scan
 dirs_to_index = ["mods", "config", "defaultconfigs", "fancymenu_data", "kubejs", "tacz", "resourcepacks", "shaderpacks"]
-files_to_index = ["servers.dat"]
+files_to_index = ["servers.dat", "options.txt"]
 
 current_index = {}
 
@@ -177,6 +177,7 @@ git add "$MANIFEST_FILE" "$INDEX_FILE"
 [ -d kubejs ] && git add kubejs/ || true
 [ -d tacz ] && git add tacz/ || true
 [ -f servers.dat ] && git add servers.dat || true
+[ -f options.txt ] && git add options.txt || true
 [ -d scripts ] && git add scripts/ || true
 
 git commit -m "chore(release): bump modpack to v${NEW_VERSION} - ${CHANGELOG}" || true
