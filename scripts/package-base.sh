@@ -23,6 +23,7 @@ cp -r "$ROOT_DIR/config" "$TEMP_DIR/"
 [ -d "$ROOT_DIR/shaderpacks" ] && cp -r "$ROOT_DIR/shaderpacks" "$TEMP_DIR/"
 [ -f "$ROOT_DIR/servers.dat" ] && cp "$ROOT_DIR/servers.dat" "$TEMP_DIR/"
 [ -d "$ROOT_DIR/libraries" ] && cp -r "$ROOT_DIR/libraries" "$TEMP_DIR/"
+[ -d "$ROOT_DIR/natives" ] && cp -r "$ROOT_DIR/natives" "$TEMP_DIR/"
 [ -f "$ROOT_DIR/1.20.1.jar" ] && cp "$ROOT_DIR/1.20.1.jar" "$TEMP_DIR/"
 [ -f "$ROOT_DIR/version.json" ] && cp "$ROOT_DIR/version.json" "$TEMP_DIR/"
 

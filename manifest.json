@@ -3,7 +3,7 @@
   "base_package": {
     "version": "1.0.0",
     "url": "https://github.com/JaviDaBomb/create-modpack/releases/download/v1.0.0/base-v1.0.0.zip",
-    "sha256": "030fcef580ae772d4803797721aaea52e711040d5333dbfc70ddf3f0adb5fc4e"
+    "sha256": "15b2f65fb46eb971ea9b62bf5288c3cc87d733c3a4da6506cc140632cbdc09ed"
   },
   "patches": []
 }
