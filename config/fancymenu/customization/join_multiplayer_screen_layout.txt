@@ -48,7 +48,7 @@ menu_background {
   instance_identifier = 0b654b48-dbb7-40aa-a918-a7b430b240f8-1791232222478
   background_type = video
   show_background = true
-  source = [source:location]fancymenu:videos/sfx.mp4
+  source = [source:local]config/fancymenu/assets/sfx.mp4
   loop = true
   volume = 0.0
   sound_source = master

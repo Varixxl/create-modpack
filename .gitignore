@@ -1,8 +1,10 @@
 # Binaries & large dependencies (distributed via Releases)
 mods/
 libraries/
+natives/
 1.20.1.jar
 *.jar
+*.mp4
 
 # Patch archives & builds
 dist-patches/
