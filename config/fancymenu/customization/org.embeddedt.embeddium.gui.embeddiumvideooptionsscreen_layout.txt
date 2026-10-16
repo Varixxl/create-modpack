@@ -342,3 +342,40 @@ scroll_list_customization {
 layout_action_executable_blocks {
 }
 
+
+element {
+  button_element_executable_block_identifier = 71000001-0001-0001-0001-000000000001
+  [executable_action_instance:72000001-0001-0001-0001-000000000001][action_type:opengui] = graphicspresets
+  [executable_block:71000001-0001-0001-0001-000000000001][type:generic] = [executables:72000001-0001-0001-0001-000000000001;]
+  underline_label_on_hover = false
+  transparent_background = false
+  restartbackgroundanimations = true
+  nine_slice_custom_background = false
+  label = Graphics Presets
+  navigatable = true
+  widget_active_state_requirement_container_identifier = 73000001-0001-0001-0001-000000000001
+  [loading_requirement_container_meta:73000001-0001-0001-0001-000000000001] = [groups:][instances:]
+  is_template = false
+  element_type = custom_button
+  instance_identifier = 74000001-0001-0001-0001-000000000001
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  auto_sizing = false
+  auto_sizing_base_screen_width = 2562
+  auto_sizing_base_screen_height = 1440
+  auto_sizing_base_gui_scale = 3.0
+  sticky_anchor = false
+  anchor_point = top-right
+  x = -135
+  y = 8
+  width = 125
+  height = 20
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 75000001-0001-0001-0001-000000000001
+  [loading_requirement_container_meta:75000001-0001-0001-0001-000000000001] = [groups:][instances:]
+  label_hover_color = #12C3CAFF
+  label_scale = 1.0
+  label_shadow = true
+}
