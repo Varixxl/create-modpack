@@ -1,5 +1,5 @@
 {
-  "latest_version": "v1.0.9",
+  "latest_version": "1.0.10",
   "base_package": {
     "version": "1.0.0",
     "url": "https://github.com/JaviDaBomb/create-modpack/releases/download/v1.0.0/base-v1.0.0.zip",
@@ -79,6 +79,14 @@
       "sha256": "91269f92447e5714db2b6327a582f76dc1977767322be5e8916f0be2796a364b",
       "delete_files": [],
       "changelog": "Windows Sound Engine Assets & Main Menu Video Fix"
+    },
+    {
+      "from_version": "v1.0.9",
+      "to_version": "1.0.10",
+      "url": "https://github.com/JaviDaBomb/create-modpack/releases/download/v1.0.10/patch-v1.0.10.zip",
+      "sha256": "cdb8c8555c898299b41655484c9cab4cd44e4708c509f5942247c7809c2e9432",
+      "delete_files": [],
+      "changelog": "Graphics Presets Engine, Refresh Rate Sync & Performance Optimization"
     }
   ]
 }
