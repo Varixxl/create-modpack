@@ -1,5 +1,5 @@
 {
-  "latest_version": "1.0.10",
+  "latest_version": "1.0.11",
   "base_package": {
     "version": "1.0.0",
     "url": "https://github.com/JaviDaBomb/create-modpack/releases/download/v1.0.0/base-v1.0.0.zip",
@@ -87,6 +87,14 @@
       "sha256": "cdb8c8555c898299b41655484c9cab4cd44e4708c509f5942247c7809c2e9432",
       "delete_files": [],
       "changelog": "Graphics Presets Engine, Refresh Rate Sync & Performance Optimization"
+    },
+    {
+      "from_version": "1.0.10",
+      "to_version": "1.0.11",
+      "url": "https://github.com/JaviDaBomb/create-modpack/releases/download/v1.0.11/patch-v1.0.11.zip",
+      "sha256": "967d9e71361bbd3f143ade8ae66ceefdbfed24134a68b59d151a0ac43dee8951",
+      "delete_files": [],
+      "changelog": "Persistent Microsoft Session Auto-Refresh & Pre-Launch Token Renewal"
     }
   ]
 }

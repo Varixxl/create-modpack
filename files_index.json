@@ -171,7 +171,7 @@
   "config/fancymenu/customization/pause_screen_layout.txt": "3a9ec40c5b0157a322b70592ce7baac7a1f1b79e2fe65c2603e0b40f45cb6ff9",
   "config/fancymenu/customization/receiving_level_screen_layout.txt": "6706870995186213c36df55de47a2d53ef65661da51fec4536a13163b34a04f4",
   "config/fancymenu/customization/title_screen_layout.txt": "4cacb2bab9079dd2481c35a5acc0547b19c664cd9e3a1bf4dcf43638f8d38a46",
-  "config/fancymenu/customization/updatelog_layout.txt": "6e4f5484b10aa75023297ef06b3a73f2c9962f15b72d5fe6986a04a65a4f706e",
+  "config/fancymenu/customization/updatelog_layout.txt": "eae789a1955afe37577dda00fa3230a32826bd78b669cd34984a263867869160",
   "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget": "d4e66bc22fcfa56158ca7100017623c71b1437fb4722229b6e064e0a48a5f5de",
   "config/fancymenu/legacy_checklist.txt": "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0",
   "config/fancymenu/normalized_scroll_screens.json": "9bdd808b0e3e8a7fa3f0f3b543da5905e53cf20b5bceff2a8eac542d5fec56e1",
