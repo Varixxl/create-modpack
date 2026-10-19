@@ -1,5 +1,5 @@
 {
-  "latest_version": "1.0.16",
+  "latest_version": "1.0.17",
   "base_package": {
     "version": "1.0.0",
     "url": "https://github.com/JaviDaBomb/create-modpack/releases/download/v1.0.0/base-v1.0.0.zip",
@@ -139,6 +139,14 @@
       "sha256": "93c20166b2c85ccfe7f4dd8620dcf58e3e6e7f7cc6fe394627ba256ad5ba0221",
       "delete_files": [],
       "changelog": "Fix Distant Horizons ThreadPresetConfigEventHandler startup crash by deferring KubeJS graphics preset classloading & update in-game menus"
+    },
+    {
+      "from_version": "1.0.16",
+      "to_version": "1.0.17",
+      "url": "https://github.com/JaviDaBomb/create-modpack/releases/download/v1.0.17/patch-v1.0.17.zip",
+      "sha256": "1a01ae393150dfc11b6652bb4f857828b81320b9877426f73d3f4174e8e062b9",
+      "delete_files": [],
+      "changelog": "Added AuthAgain in-game session re-authentication mod and title screen button"
     }
   ]
 }
