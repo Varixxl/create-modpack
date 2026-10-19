@@ -1,5 +1,5 @@
 {
-  "latest_version": "1.0.19",
+  "latest_version": "1.0.20",
   "base_package": {
     "version": "1.0.0",
     "url": "https://github.com/JaviDaBomb/create-modpack/releases/download/v1.0.0/base-v1.0.0.zip",
@@ -163,6 +163,14 @@
       "sha256": "16d05bf4743f8fa51a974509026ef21f0f8707cf7c4428be7e0c25317da14fb2",
       "delete_files": [],
       "changelog": "Fix background and menu soundtrack loading via Create_Soundtrack resource pack"
+    },
+    {
+      "from_version": "1.0.19",
+      "to_version": "1.0.20",
+      "url": "https://github.com/JaviDaBomb/create-modpack/releases/download/v1.0.20/patch-v1.0.20.zip",
+      "sha256": "f685218465e0e960f8c7318f5a064745f937f4fce25387c4d2efb28c87138391",
+      "delete_files": [],
+      "changelog": "Enable streaming vanilla menu music and include wanderstop in soundtrack pack"
     }
   ]
 }
