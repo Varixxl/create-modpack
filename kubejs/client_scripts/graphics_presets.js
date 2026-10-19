@@ -131,48 +131,50 @@
 
   function applyDistantHorizonsPreset(mode) {
     try {
-      let DhQuality = Java.loadClass('com.seibel.distanthorizons.core.config.Config$Client$Advanced$Graphics$Quality');
-      let DhFog = Java.loadClass('com.seibel.distanthorizons.core.config.Config$Client$Advanced$Graphics$Fog');
-      let DhThreading = Java.loadClass('com.seibel.distanthorizons.core.config.Config$Common$MultiThreading');
-      let EDhApiVerticalQuality = Java.loadClass('com.seibel.distanthorizons.api.enums.config.EDhApiVerticalQuality');
-      let EDhApiMaxHorizontalResolution = Java.loadClass('com.seibel.distanthorizons.api.enums.config.EDhApiMaxHorizontalResolution');
+      let DhQuality = null;
+      let DhFog = null;
+      let EDhApiVerticalQuality = null;
+      let EDhApiMaxHorizontalResolution = null;
 
-      if (mode === 'low') {
-        DhQuality.lodChunkRenderDistanceRadius.set(Integer.valueOf(48));
-        DhQuality.verticalQuality.set(EDhApiVerticalQuality.MEDIUM);
-        DhQuality.maxHorizontalResolution.set(EDhApiMaxHorizontalResolution.FOUR_BLOCKS);
-        if (DhFog != null) {
-          DhFog.farFogStart.set(Float.valueOf(0.4));
-          DhFog.farFogDensity.set(Float.valueOf(2.6));
-        }
-        if (DhThreading != null) {
-          DhThreading.numberOfThreads.set(Integer.valueOf(2));
-        }
-      } else if (mode === 'medium') {
-        DhQuality.lodChunkRenderDistanceRadius.set(Integer.valueOf(64));
-        DhQuality.verticalQuality.set(EDhApiVerticalQuality.HIGH);
-        DhQuality.maxHorizontalResolution.set(EDhApiMaxHorizontalResolution.TWO_BLOCKS);
-        if (DhFog != null) {
-          DhFog.farFogStart.set(Float.valueOf(0.5));
-          DhFog.farFogDensity.set(Float.valueOf(2.2));
-        }
-        if (DhThreading != null) {
-          DhThreading.numberOfThreads.set(Integer.valueOf(2));
-        }
-      } else {
-        DhQuality.lodChunkRenderDistanceRadius.set(Integer.valueOf(96));
-        DhQuality.verticalQuality.set(EDhApiVerticalQuality.HIGH);
-        DhQuality.maxHorizontalResolution.set(EDhApiMaxHorizontalResolution.TWO_BLOCKS);
-        if (DhFog != null) {
-          DhFog.farFogStart.set(Float.valueOf(0.6));
-          DhFog.farFogDensity.set(Float.valueOf(2.0));
-        }
-        if (DhThreading != null) {
-          DhThreading.numberOfThreads.set(Integer.valueOf(3));
+      try {
+        DhQuality = Java.loadClass('com.seibel.distanthorizons.core.config.Config$Client$Advanced$Graphics$Quality');
+        DhFog = Java.loadClass('com.seibel.distanthorizons.core.config.Config$Client$Advanced$Graphics$Fog');
+        EDhApiVerticalQuality = Java.loadClass('com.seibel.distanthorizons.api.enums.config.EDhApiVerticalQuality');
+        EDhApiMaxHorizontalResolution = Java.loadClass('com.seibel.distanthorizons.api.enums.config.EDhApiMaxHorizontalResolution');
+      } catch (dhLoadErr) {
+        // Distant Horizons not present or config not yet initialized
+        return;
+      }
+
+      if (DhQuality != null && EDhApiVerticalQuality != null && EDhApiMaxHorizontalResolution != null) {
+        if (mode === 'low') {
+          DhQuality.lodChunkRenderDistanceRadius.set(Integer.valueOf(48));
+          DhQuality.verticalQuality.set(EDhApiVerticalQuality.MEDIUM);
+          DhQuality.maxHorizontalResolution.set(EDhApiMaxHorizontalResolution.FOUR_BLOCKS);
+          if (DhFog != null) {
+            DhFog.farFogStart.set(Float.valueOf(0.4));
+            DhFog.farFogDensity.set(Float.valueOf(2.6));
+          }
+        } else if (mode === 'medium') {
+          DhQuality.lodChunkRenderDistanceRadius.set(Integer.valueOf(64));
+          DhQuality.verticalQuality.set(EDhApiVerticalQuality.HIGH);
+          DhQuality.maxHorizontalResolution.set(EDhApiMaxHorizontalResolution.TWO_BLOCKS);
+          if (DhFog != null) {
+            DhFog.farFogStart.set(Float.valueOf(0.5));
+            DhFog.farFogDensity.set(Float.valueOf(2.2));
+          }
+        } else {
+          DhQuality.lodChunkRenderDistanceRadius.set(Integer.valueOf(96));
+          DhQuality.verticalQuality.set(EDhApiVerticalQuality.HIGH);
+          DhQuality.maxHorizontalResolution.set(EDhApiMaxHorizontalResolution.TWO_BLOCKS);
+          if (DhFog != null) {
+            DhFog.farFogStart.set(Float.valueOf(0.6));
+            DhFog.farFogDensity.set(Float.valueOf(2.0));
+          }
         }
       }
     } catch (e) {
-      console.warn('[GraphicsPresets] Distant Horizons update warning: ' + e);
+      console.warn('[GraphicsPresets] Distant Horizons live update note: ' + e);
     }
   }
 
@@ -226,10 +228,29 @@
     }
   }
 
+  // Clear any stale preset requests from previous sessions immediately
+  try {
+    VariableHandler.setVariable('graphics_preset_request', '');
+  } catch (e) {
+    // VariableHandler not yet ready
+  }
+
   // Poll FancyMenu variable requests on every client tick (works in both menus & worlds)
   let pollCounter = 0;
   let pollTask = function() {
     try {
+      let MinecraftClass = null;
+      try {
+        MinecraftClass = Java.loadClass('net.minecraft.client.Minecraft');
+      } catch (err) {
+        return;
+      }
+      let mc = MinecraftClass != null ? MinecraftClass.getInstance() : null;
+      if (mc == null || (mc.level == null && mc.screen == null)) {
+        // Game is still in early loading, wait until title screen or world is active
+        return;
+      }
+
       if (!initializedStatus) {
         initializedStatus = true;
         VariableHandler.setVariable('graphics_preset_request', '');
