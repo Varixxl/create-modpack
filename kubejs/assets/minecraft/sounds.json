@@ -1,0 +1,5739 @@
+{
+  "music.menu": {
+    "replace": false,
+    "sounds": [
+      {
+        "name": "fancymenu:wanderstop",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_001",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_002",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_003",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_004",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_005",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_006",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_007",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_008",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_009",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_010",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_011",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_012",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_013",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_014",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_015",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_016",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_017",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_018",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_019",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_020",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_021",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_022",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_023",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_024",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_025",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_026",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_027",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_028",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_029",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_030",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_031",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_032",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_033",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_034",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_035",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_036",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_037",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_038",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_039",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_040",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_041",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_042",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_043",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_044",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_045",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_046",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_047",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_048",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_049",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_050",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_051",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_052",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_053",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_054",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_055",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_056",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_057",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_058",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_059",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_060",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_061",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_062",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_063",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_064",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_065",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_066",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_067",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_068",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_069",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_070",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_071",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_072",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_073",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_074",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_075",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_076",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_077",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_078",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_079",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_080",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_081",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_082",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_083",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_084",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_085",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_086",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_087",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_088",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_089",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_090",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_091",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_092",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_093",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_094",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_095",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_096",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_097",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_098",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_099",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_100",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_101",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_102",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_103",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_104",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_105",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_106",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_107",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_108",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_109",
+        "stream": true
+      }
+    ]
+  },
+  "music.game": {
+    "replace": false,
+    "sounds": [
+      {
+        "name": "minecraft:music/custom/mc_music_001",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_002",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_003",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_004",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_005",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_006",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_007",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_008",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_009",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_010",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_011",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_012",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_013",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_014",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_015",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_016",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_017",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_018",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_019",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_020",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_021",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_022",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_023",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_024",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_025",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_026",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_027",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_028",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_029",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_030",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_031",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_032",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_033",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_034",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_035",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_036",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_037",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_038",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_039",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_040",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_041",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_042",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_043",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_044",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_045",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_046",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_047",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_048",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_049",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_050",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_051",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_052",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_053",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_054",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_055",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_056",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_057",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_058",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_059",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_060",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_061",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_062",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_063",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_064",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_065",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_066",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_067",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_068",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_069",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_070",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_071",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_072",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_073",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_074",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_075",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_076",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_077",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_078",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_079",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_080",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_081",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_082",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_083",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_084",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_085",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_086",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_087",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_088",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_089",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_090",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_091",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_092",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_093",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_094",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_095",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_096",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_097",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_098",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_099",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_100",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_101",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_102",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_103",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_104",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_105",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_106",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_107",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_108",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_109",
+        "stream": true
+      }
+    ]
+  },
+  "music.creative": {
+    "replace": false,
+    "sounds": [
+      {
+        "name": "minecraft:music/custom/mc_music_001",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_002",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_003",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_004",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_005",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_006",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_007",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_008",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_009",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_010",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_011",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_012",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_013",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_014",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_015",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_016",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_017",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_018",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_019",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_020",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_021",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_022",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_023",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_024",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_025",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_026",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_027",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_028",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_029",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_030",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_031",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_032",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_033",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_034",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_035",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_036",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_037",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_038",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_039",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_040",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_041",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_042",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_043",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_044",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_045",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_046",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_047",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_048",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_049",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_050",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_051",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_052",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_053",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_054",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_055",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_056",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_057",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_058",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_059",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_060",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_061",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_062",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_063",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_064",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_065",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_066",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_067",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_068",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_069",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_070",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_071",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_072",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_073",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_074",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_075",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_076",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_077",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_078",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_079",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_080",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_081",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_082",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_083",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_084",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_085",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_086",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_087",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_088",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_089",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_090",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_091",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_092",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_093",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_094",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_095",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_096",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_097",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_098",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_099",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_100",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_101",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_102",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_103",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_104",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_105",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_106",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_107",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_108",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_109",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.cherry_grove": {
+    "replace": false,
+    "sounds": [
+      {
+        "name": "minecraft:music/custom/mc_music_001",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_002",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_003",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_004",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_005",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_006",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_007",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_008",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_009",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_010",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_011",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_012",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_013",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_014",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_015",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_016",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_017",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_018",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_019",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_020",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_021",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_022",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_023",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_024",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_025",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_026",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_027",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_028",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_029",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_030",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_031",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_032",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_033",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_034",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_035",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_036",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_037",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_038",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_039",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_040",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_041",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_042",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_043",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_044",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_045",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_046",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_047",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_048",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_049",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_050",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_051",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_052",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_053",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_054",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_055",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_056",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_057",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_058",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_059",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_060",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_061",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_062",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_063",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_064",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_065",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_066",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_067",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_068",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_069",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_070",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_071",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_072",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_073",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_074",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_075",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_076",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_077",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_078",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_079",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_080",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_081",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_082",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_083",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_084",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_085",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_086",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_087",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_088",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_089",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_090",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_091",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_092",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_093",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_094",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_095",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_096",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_097",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_098",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_099",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_100",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_101",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_102",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_103",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_104",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_105",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_106",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_107",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_108",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_109",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.deep_dark": {
+    "replace": false,
+    "sounds": [
+      {
+        "name": "minecraft:music/custom/mc_music_001",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_002",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_003",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_004",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_005",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_006",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_007",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_008",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_009",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_010",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_011",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_012",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_013",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_014",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_015",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_016",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_017",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_018",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_019",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_020",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_021",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_022",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_023",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_024",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_025",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_026",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_027",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_028",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_029",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_030",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_031",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_032",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_033",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_034",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_035",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_036",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_037",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_038",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_039",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_040",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_041",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_042",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_043",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_044",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_045",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_046",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_047",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_048",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_049",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_050",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_051",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_052",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_053",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_054",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_055",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_056",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_057",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_058",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_059",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_060",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_061",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_062",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_063",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_064",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_065",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_066",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_067",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_068",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_069",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_070",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_071",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_072",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_073",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_074",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_075",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_076",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_077",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_078",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_079",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_080",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_081",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_082",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_083",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_084",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_085",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_086",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_087",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_088",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_089",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_090",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_091",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_092",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_093",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_094",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_095",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_096",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_097",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_098",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_099",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_100",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_101",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_102",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_103",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_104",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_105",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_106",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_107",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_108",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_109",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.dripstone_caves": {
+    "replace": false,
+    "sounds": [
+      {
+        "name": "minecraft:music/custom/mc_music_001",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_002",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_003",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_004",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_005",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_006",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_007",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_008",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_009",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_010",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_011",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_012",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_013",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_014",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_015",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_016",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_017",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_018",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_019",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_020",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_021",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_022",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_023",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_024",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_025",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_026",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_027",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_028",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_029",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_030",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_031",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_032",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_033",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_034",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_035",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_036",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_037",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_038",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_039",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_040",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_041",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_042",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_043",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_044",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_045",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_046",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_047",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_048",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_049",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_050",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_051",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_052",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_053",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_054",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_055",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_056",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_057",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_058",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_059",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_060",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_061",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_062",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_063",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_064",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_065",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_066",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_067",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_068",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_069",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_070",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_071",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_072",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_073",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_074",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_075",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_076",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_077",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_078",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_079",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_080",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_081",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_082",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_083",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_084",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_085",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_086",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_087",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_088",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_089",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_090",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_091",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_092",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_093",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_094",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_095",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_096",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_097",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_098",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_099",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_100",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_101",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_102",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_103",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_104",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_105",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_106",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_107",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_108",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_109",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.frozen_peaks": {
+    "replace": false,
+    "sounds": [
+      {
+        "name": "minecraft:music/custom/mc_music_001",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_002",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_003",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_004",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_005",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_006",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_007",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_008",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_009",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_010",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_011",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_012",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_013",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_014",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_015",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_016",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_017",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_018",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_019",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_020",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_021",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_022",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_023",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_024",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_025",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_026",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_027",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_028",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_029",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_030",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_031",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_032",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_033",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_034",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_035",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_036",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_037",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_038",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_039",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_040",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_041",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_042",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_043",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_044",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_045",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_046",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_047",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_048",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_049",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_050",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_051",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_052",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_053",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_054",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_055",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_056",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_057",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_058",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_059",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_060",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_061",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_062",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_063",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_064",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_065",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_066",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_067",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_068",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_069",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_070",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_071",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_072",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_073",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_074",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_075",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_076",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_077",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_078",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_079",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_080",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_081",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_082",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_083",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_084",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_085",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_086",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_087",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_088",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_089",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_090",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_091",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_092",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_093",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_094",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_095",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_096",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_097",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_098",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_099",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_100",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_101",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_102",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_103",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_104",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_105",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_106",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_107",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_108",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_109",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.grove": {
+    "replace": false,
+    "sounds": [
+      {
+        "name": "minecraft:music/custom/mc_music_001",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_002",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_003",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_004",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_005",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_006",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_007",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_008",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_009",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_010",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_011",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_012",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_013",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_014",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_015",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_016",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_017",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_018",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_019",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_020",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_021",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_022",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_023",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_024",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_025",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_026",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_027",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_028",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_029",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_030",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_031",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_032",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_033",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_034",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_035",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_036",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_037",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_038",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_039",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_040",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_041",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_042",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_043",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_044",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_045",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_046",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_047",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_048",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_049",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_050",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_051",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_052",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_053",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_054",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_055",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_056",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_057",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_058",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_059",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_060",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_061",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_062",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_063",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_064",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_065",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_066",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_067",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_068",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_069",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_070",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_071",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_072",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_073",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_074",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_075",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_076",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_077",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_078",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_079",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_080",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_081",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_082",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_083",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_084",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_085",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_086",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_087",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_088",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_089",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_090",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_091",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_092",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_093",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_094",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_095",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_096",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_097",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_098",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_099",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_100",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_101",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_102",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_103",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_104",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_105",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_106",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_107",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_108",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_109",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.jagged_peaks": {
+    "replace": false,
+    "sounds": [
+      {
+        "name": "minecraft:music/custom/mc_music_001",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_002",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_003",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_004",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_005",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_006",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_007",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_008",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_009",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_010",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_011",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_012",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_013",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_014",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_015",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_016",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_017",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_018",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_019",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_020",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_021",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_022",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_023",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_024",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_025",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_026",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_027",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_028",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_029",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_030",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_031",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_032",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_033",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_034",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_035",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_036",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_037",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_038",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_039",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_040",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_041",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_042",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_043",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_044",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_045",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_046",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_047",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_048",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_049",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_050",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_051",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_052",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_053",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_054",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_055",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_056",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_057",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_058",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_059",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_060",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_061",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_062",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_063",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_064",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_065",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_066",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_067",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_068",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_069",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_070",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_071",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_072",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_073",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_074",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_075",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_076",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_077",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_078",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_079",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_080",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_081",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_082",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_083",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_084",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_085",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_086",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_087",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_088",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_089",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_090",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_091",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_092",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_093",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_094",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_095",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_096",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_097",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_098",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_099",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_100",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_101",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_102",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_103",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_104",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_105",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_106",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_107",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_108",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_109",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.lush_caves": {
+    "replace": false,
+    "sounds": [
+      {
+        "name": "minecraft:music/custom/mc_music_001",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_002",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_003",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_004",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_005",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_006",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_007",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_008",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_009",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_010",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_011",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_012",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_013",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_014",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_015",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_016",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_017",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_018",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_019",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_020",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_021",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_022",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_023",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_024",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_025",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_026",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_027",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_028",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_029",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_030",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_031",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_032",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_033",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_034",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_035",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_036",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_037",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_038",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_039",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_040",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_041",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_042",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_043",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_044",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_045",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_046",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_047",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_048",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_049",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_050",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_051",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_052",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_053",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_054",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_055",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_056",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_057",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_058",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_059",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_060",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_061",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_062",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_063",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_064",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_065",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_066",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_067",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_068",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_069",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_070",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_071",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_072",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_073",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_074",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_075",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_076",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_077",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_078",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_079",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_080",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_081",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_082",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_083",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_084",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_085",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_086",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_087",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_088",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_089",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_090",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_091",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_092",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_093",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_094",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_095",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_096",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_097",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_098",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_099",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_100",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_101",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_102",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_103",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_104",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_105",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_106",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_107",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_108",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_109",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.meadow": {
+    "replace": false,
+    "sounds": [
+      {
+        "name": "minecraft:music/custom/mc_music_001",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_002",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_003",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_004",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_005",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_006",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_007",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_008",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_009",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_010",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_011",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_012",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_013",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_014",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_015",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_016",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_017",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_018",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_019",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_020",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_021",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_022",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_023",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_024",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_025",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_026",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_027",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_028",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_029",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_030",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_031",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_032",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_033",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_034",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_035",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_036",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_037",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_038",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_039",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_040",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_041",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_042",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_043",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_044",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_045",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_046",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_047",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_048",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_049",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_050",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_051",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_052",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_053",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_054",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_055",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_056",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_057",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_058",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_059",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_060",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_061",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_062",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_063",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_064",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_065",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_066",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_067",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_068",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_069",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_070",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_071",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_072",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_073",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_074",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_075",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_076",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_077",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_078",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_079",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_080",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_081",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_082",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_083",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_084",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_085",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_086",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_087",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_088",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_089",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_090",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_091",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_092",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_093",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_094",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_095",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_096",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_097",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_098",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_099",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_100",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_101",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_102",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_103",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_104",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_105",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_106",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_107",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_108",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_109",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.snowy_slopes": {
+    "replace": false,
+    "sounds": [
+      {
+        "name": "minecraft:music/custom/mc_music_001",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_002",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_003",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_004",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_005",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_006",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_007",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_008",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_009",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_010",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_011",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_012",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_013",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_014",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_015",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_016",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_017",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_018",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_019",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_020",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_021",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_022",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_023",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_024",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_025",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_026",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_027",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_028",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_029",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_030",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_031",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_032",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_033",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_034",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_035",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_036",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_037",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_038",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_039",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_040",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_041",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_042",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_043",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_044",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_045",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_046",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_047",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_048",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_049",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_050",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_051",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_052",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_053",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_054",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_055",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_056",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_057",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_058",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_059",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_060",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_061",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_062",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_063",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_064",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_065",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_066",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_067",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_068",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_069",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_070",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_071",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_072",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_073",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_074",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_075",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_076",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_077",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_078",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_079",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_080",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_081",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_082",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_083",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_084",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_085",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_086",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_087",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_088",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_089",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_090",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_091",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_092",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_093",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_094",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_095",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_096",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_097",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_098",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_099",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_100",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_101",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_102",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_103",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_104",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_105",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_106",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_107",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_108",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_109",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.stony_peaks": {
+    "replace": false,
+    "sounds": [
+      {
+        "name": "minecraft:music/custom/mc_music_001",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_002",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_003",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_004",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_005",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_006",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_007",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_008",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_009",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_010",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_011",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_012",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_013",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_014",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_015",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_016",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_017",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_018",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_019",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_020",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_021",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_022",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_023",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_024",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_025",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_026",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_027",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_028",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_029",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_030",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_031",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_032",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_033",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_034",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_035",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_036",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_037",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_038",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_039",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_040",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_041",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_042",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_043",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_044",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_045",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_046",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_047",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_048",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_049",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_050",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_051",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_052",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_053",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_054",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_055",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_056",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_057",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_058",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_059",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_060",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_061",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_062",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_063",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_064",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_065",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_066",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_067",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_068",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_069",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_070",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_071",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_072",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_073",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_074",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_075",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_076",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_077",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_078",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_079",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_080",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_081",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_082",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_083",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_084",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_085",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_086",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_087",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_088",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_089",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_090",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_091",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_092",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_093",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_094",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_095",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_096",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_097",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_098",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_099",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_100",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_101",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_102",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_103",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_104",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_105",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_106",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_107",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_108",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/custom/mc_music_109",
+        "stream": true
+      }
+    ]
+  }
+}

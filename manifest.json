@@ -1,5 +1,5 @@
 {
-  "latest_version": "1.0.17",
+  "latest_version": "1.0.18",
   "base_package": {
     "version": "1.0.0",
     "url": "https://github.com/JaviDaBomb/create-modpack/releases/download/v1.0.0/base-v1.0.0.zip",
@@ -147,6 +147,14 @@
       "sha256": "1a01ae393150dfc11b6652bb4f857828b81320b9877426f73d3f4174e8e062b9",
       "delete_files": [],
       "changelog": "Added AuthAgain in-game session re-authentication mod and title screen button"
+    },
+    {
+      "from_version": "1.0.17",
+      "to_version": "1.0.18",
+      "url": "https://github.com/JaviDaBomb/create-modpack/releases/download/v1.0.18/patch-v1.0.18.zip",
+      "sha256": "c5d12e694de8bc729ad3f1f6b77735f5d0237548d1a3b63f1f0a01d395e38e8a",
+      "delete_files": [],
+      "changelog": "Added 109-song ambient soundtrack expansion for menus and in-game background music"
     }
   ]
 }
