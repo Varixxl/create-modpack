@@ -1,5 +1,5 @@
 {
-  "latest_version": "1.0.11",
+  "latest_version": "1.0.12",
   "base_package": {
     "version": "1.0.0",
     "url": "https://github.com/JaviDaBomb/create-modpack/releases/download/v1.0.0/base-v1.0.0.zip",
@@ -95,6 +95,14 @@
       "sha256": "967d9e71361bbd3f143ade8ae66ceefdbfed24134a68b59d151a0ac43dee8951",
       "delete_files": [],
       "changelog": "Persistent Microsoft Session Auto-Refresh & Pre-Launch Token Renewal"
+    },
+    {
+      "from_version": "1.0.11",
+      "to_version": "1.0.12",
+      "url": "https://github.com/JaviDaBomb/create-modpack/releases/download/v1.0.12/patch-v1.0.12.zip",
+      "sha256": "70b7923882b69ae53c88c55d1e48aee90fd8b40a3bba30841e175b5607d61734",
+      "delete_files": [],
+      "changelog": "Client Security Hardening, SHA256/SHA1 Verification & In-Game Update Log Fix"
     }
   ]
 }
