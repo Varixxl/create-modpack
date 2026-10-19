@@ -1,5 +1,5 @@
 {
-  "latest_version": "1.0.13",
+  "latest_version": "1.0.14",
   "base_package": {
     "version": "1.0.0",
     "url": "https://github.com/JaviDaBomb/create-modpack/releases/download/v1.0.0/base-v1.0.0.zip",
@@ -111,6 +111,16 @@
       "sha256": "b4478b3967d3dc843f3f7e46e48a205b8ec97f802f774ea810df68bd6cf78183",
       "delete_files": [],
       "changelog": "Fix In-Game Graphics Presets Button, Modal Registration & Live Shader/LOD Reload"
+    },
+    {
+      "from_version": "1.0.13",
+      "to_version": "1.0.14",
+      "url": "https://github.com/JaviDaBomb/create-modpack/releases/download/v1.0.14/patch-v1.0.14.zip",
+      "sha256": "d7b91b2162bbe4a18999ce2a4b733eba5f835cc843d0cd86d96a6c3678deb61f",
+      "delete_files": [
+        "mods/BetterClouds-1.1.jar"
+      ],
+      "changelog": "DLSS Style De-Graining Patch, Distant Horizons Visual Overhaul & Aggressive FPS Preset Tuning"
     }
   ]
 }

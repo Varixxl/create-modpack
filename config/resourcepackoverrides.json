@@ -3,7 +3,6 @@
   "default_packs": [
     "vanilla",
     "mod_resources",
-    "file/Patrix_1.20_64x_basic.zip",
     "file/FancyMenu_Assets.zip"
   ],
   "pack_overrides": {

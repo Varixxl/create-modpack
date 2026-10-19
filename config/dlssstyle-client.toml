@@ -13,7 +13,7 @@
 	#DYNAMIC: scale adjusts itself to hold your fps cap or
 	#refresh rate.
 	#Allowed Values: OFF, QUALITY, BALANCED, PERFORMANCE, ULTRA_PERFORMANCE, DLAA, DYNAMIC
-	preset = "OFF"
+	preset = "QUALITY"
 	#Edge crispness added back after upscaling.
 	#Too high looks gritty.
 	#Range: 0.0 ~ 1.0
@@ -209,7 +209,7 @@
 	#to EVERY preset, DLAA included - that is the fps
 	#lever for native-res play. 1.0 = never scale.
 	#Range: 0.0 ~ 1.0
-	shadowScale = 0.0
+	shadowScale = 1.0
 	#Scale for a shader pack's RELATIVE buffers -
 	#the reflection, AO and cloud targets a pack sized
 	#as a fraction of the screen. Its own control:
@@ -219,7 +219,7 @@
 	#the other. 0 = follow the preset curve (DLAA and
 	#Off untouched). 1.0 = never scale.
 	#Range: 0.0 ~ 1.0
-	packBufferScale = 0.0
+	packBufferScale = 1.0
 	#Shadow culling distance in BLOCKS: geometry
 	#further than this from the camera is left out of
 	#the pack's shadow pass. The shadow pass re-renders
@@ -227,7 +227,7 @@
 	#frame while the camera moves - the main motion
 	#cost under a pack. 0 = the pack's own distance.
 	#Range: 0 ~ 256
-	shadowCullBlocks = 0
+	shadowCullBlocks = 128
 	#Entity shadow distance in BLOCKS: mobs, items and
 	#other entities further than this from the camera are
 	#left out of a shader pack's shadow pass.
@@ -241,7 +241,7 @@
 	#themselves default it far below their shadow distance.
 	#Terrain shadows are unaffected; see shadowCullBlocks.
 	#Range: 0 ~ 256
-	shadowEntityDistance = 0
+	shadowEntityDistance = 48
 	#Shadow cache: the longest an IDLE shadow map may be held,
 	#in milliseconds, for packs whose shadow pass animates with
 	#time (waving foliage, water caustics: frameTimeCounter or
@@ -268,7 +268,7 @@
 	#spending.
 	#A test that has not finished always draws, so the
 	#worst case is vanilla, never a missing mob.
-	entityCulling = true
+	entityCulling = false
 	#Never cull within this many blocks. Close mobs
 	#cost little and a mistake there is obvious.
 	#Range: 0 ~ 64
@@ -289,7 +289,7 @@
 	#multiblocks are not affected. Only the animated
 	#renderer is skipped; the block itself is terrain
 	#and draws either way.
-	blockEntityCulling = true
+	blockEntityCulling = false
 	#Skip particles behind walls. An empty plains
 	#field already runs about 60 live particles; a
 	#modded base with machines is in the hundreds,
@@ -300,11 +300,10 @@
 	#enough to be worth doing.
 	#Particles still tick and still age out normally;
 	#only the drawing is skipped.
-	particleCulling = true
+	particleCulling = false
 	#Stop drawing particles past this many blocks.
 	#0 disables the distance cut and leaves only the
 	#behind-a-wall test. Deliberately generous by
 	#default: this one is visible if set too low.
 	#Range: 0 ~ 512
 	particleMaxDistance = 64
-
