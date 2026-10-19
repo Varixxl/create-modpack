@@ -1,5 +1,5 @@
 {
-  "latest_version": "1.0.14",
+  "latest_version": "1.0.15",
   "base_package": {
     "version": "1.0.0",
     "url": "https://github.com/JaviDaBomb/create-modpack/releases/download/v1.0.0/base-v1.0.0.zip",
@@ -121,6 +121,16 @@
         "mods/BetterClouds-1.1.jar"
       ],
       "changelog": "DLSS Style De-Graining Patch, Distant Horizons Visual Overhaul & Aggressive FPS Preset Tuning"
+    },
+    {
+      "from_version": "1.0.14",
+      "to_version": "1.0.15",
+      "url": "https://github.com/JaviDaBomb/create-modpack/releases/download/v1.0.15/patch-v1.0.15.zip",
+      "sha256": "2e68b66f30c26a1d52c9cc6ed6a9da89906bc868e3b19c31080dbd9eb23e2ec3",
+      "delete_files": [
+        "mods/supermartijn642corelib-1.1.21-forge-mc1.20.1.jar"
+      ],
+      "changelog": "Update SuperMartijn642's Core Lib to v1.1.25a for Forge 47.4.28 server compatibility"
     }
   ]
 }
