@@ -220,7 +220,7 @@ element {
 
 element {
   interactable = true
-  source = §fSelect an optimized graphics configuration for your system.%n%§7All presets automatically lock framerate to your monitor's detected refresh rate.%n%%n%§e§l[LOW PRESET] §7- Fast & Lightweight%n%§8• §7Distant Horizons: 32 chunks %n%§8• §7Shaders: Fast Lighting, POM Disabled%n%§8• §7Best for: Integrated Graphics, Budget GPUs, Laptops%n%%n%§b§l[MEDIUM PRESET] §a(Recommended) §7- Balanced Sweet Spot%n%§8• §7Distant Horizons: 64 chunks (1024m) + Smooth Fog%n%§8• §7Shaders: Patrix LabPBR with Balanced 3D POM%n%§8• §7Best for: 1080p High-Refresh & 1440p Smooth Play%n%%n%§d§l[ULTRA PRESET] §7- Maximum Cinematic Fidelity%n%§8• §7Distant Horizons: 64 chunks High + Atmospheric Fog%n%§8• §7Shaders: Full Patrix LabPBR POM Relief, High Shadows%n%§8• §7Best for: 1440p & 4K on RTX 3070 / 3080 / 4070+
+  source = §fSelect an optimized graphics configuration for your system.%n%§7All presets automatically lock framerate to your monitor's detected refresh rate.%n%{"placeholder":"getvariable","values":{"name":"graphics_preset_status"}}%n%%n%§e§l[LOW PRESET] §7- Fast & Lightweight%n%§8• §7Distant Horizons: 32 chunks %n%§8• §7Shaders: Fast Lighting, POM Disabled%n%§8• §7Best for: Integrated Graphics, Budget GPUs, Laptops%n%%n%§b§l[MEDIUM PRESET] §a(Recommended) §7- Balanced Sweet Spot%n%§8• §7Distant Horizons: 64 chunks (1024m) + Smooth Fog%n%§8• §7Shaders: Patrix LabPBR with Balanced 3D POM%n%§8• §7Best for: 1080p High-Refresh & 1440p Smooth Play%n%%n%§d§l[ULTRA PRESET] §7- Maximum Cinematic Fidelity%n%§8• §7Distant Horizons: 64 chunks High + Atmospheric Fog%n%§8• §7Shaders: Full Patrix LabPBR POM Relief, High Shadows%n%§8• §7Best for: 1440p & 4K on RTX 3070 / 3080 / 4070+
   source_mode = direct
   shadow = true
   enable_scrolling = true
@@ -283,7 +283,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 90000001-0001-0001-0001-000000000001
-  [executable_action_instance:91000001-0001-0001-0001-000000000001][action_type:paste_to_chat] = /preset low
+  [executable_action_instance:91000001-0001-0001-0001-000000000001][action_type:set_variable] = graphics_preset_request:low
   [executable_block:90000001-0001-0001-0001-000000000001][type:generic] = [executables:91000001-0001-0001-0001-000000000001;]
   underline_label_on_hover = false
   transparent_background = false
@@ -320,7 +320,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 90000001-0001-0001-0001-000000000002
-  [executable_action_instance:91000001-0001-0001-0001-000000000002][action_type:paste_to_chat] = /preset medium
+  [executable_action_instance:91000001-0001-0001-0001-000000000002][action_type:set_variable] = graphics_preset_request:medium
   [executable_block:90000001-0001-0001-0001-000000000002][type:generic] = [executables:91000001-0001-0001-0001-000000000002;]
   underline_label_on_hover = false
   transparent_background = false
@@ -357,7 +357,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 90000001-0001-0001-0001-000000000003
-  [executable_action_instance:91000001-0001-0001-0001-000000000003][action_type:paste_to_chat] = /preset ultra
+  [executable_action_instance:91000001-0001-0001-0001-000000000003][action_type:set_variable] = graphics_preset_request:ultra
   [executable_block:90000001-0001-0001-0001-000000000003][type:generic] = [executables:91000001-0001-0001-0001-000000000003;]
   underline_label_on_hover = false
   transparent_background = false

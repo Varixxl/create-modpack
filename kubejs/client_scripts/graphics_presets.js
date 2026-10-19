@@ -5,12 +5,35 @@
 (function() {
   console.info('[GraphicsPresets] Initializing Graphics Presets Engine...');
 
-  const Minecraft = Java.loadClass('net.minecraft.client.Minecraft');
-  const Component = Java.loadClass('net.minecraft.network.chat.Component');
   const GLFW = Java.loadClass('org.lwjgl.glfw.GLFW');
-  const Files = Java.loadClass('java.nio.file.Files');
-  const Paths = Java.loadClass('java.nio.file.Paths');
-  const StandardCopyOption = Java.loadClass('java.nio.file.StandardCopyOption');
+  const Properties = Java.loadClass('java.util.Properties');
+  const Integer = Java.loadClass('java.lang.Integer');
+  const Float = Java.loadClass('java.lang.Float');
+  const VariableHandler = Java.loadClass('de.keksuccino.fancymenu.customization.variables.VariableHandler');
+  const MainThreadTaskExecutor = Java.loadClass('de.keksuccino.fancymenu.util.threading.MainThreadTaskExecutor');
+  const ExecuteTiming = Java.loadClass('de.keksuccino.fancymenu.util.threading.MainThreadTaskExecutor$ExecuteTiming');
+  const MinecraftOptions = Java.loadClass('de.keksuccino.fancymenu.util.minecraftoptions.MinecraftOptions');
+  const ShowToastAction = Java.loadClass('de.keksuccino.fancymenu.customization.action.actions.other.ShowToastAction');
+
+  let Iris = null;
+  try {
+    Iris = Java.loadClass('net.irisshaders.iris.Iris');
+  } catch (e) {
+    console.warn('[GraphicsPresets] Iris/Oculus class not available: ' + e);
+  }
+
+  let DhQuality = null;
+  let DhFog = null;
+  let DhThreading = null;
+  let EDhApiVerticalQuality = null;
+  try {
+    DhQuality = Java.loadClass('com.seibel.distanthorizons.core.config.Config$Client$Advanced$Graphics$Quality');
+    DhFog = Java.loadClass('com.seibel.distanthorizons.core.config.Config$Client$Advanced$Graphics$Fog');
+    DhThreading = Java.loadClass('com.seibel.distanthorizons.core.config.Config$Common$MultiThreading');
+    EDhApiVerticalQuality = Java.loadClass('com.seibel.distanthorizons.api.enums.config.EDhApiVerticalQuality');
+  } catch (e) {
+    console.warn('[GraphicsPresets] Distant Horizons config classes not available: ' + e);
+  }
 
   function getDetectedRefreshRate() {
     try {
@@ -30,46 +53,146 @@
     return 60;
   }
 
-  function sendClientFeedback(messageText) {
+  function showPresetToast(titleText, messageText) {
     try {
-      let mc = Minecraft.getInstance();
-      if (mc.player != null) {
-        mc.player.displayClientMessage(Component.literal(messageText), false);
-      } else {
-        console.info('[GraphicsPresets] ' + messageText);
+      let toastJson = JSON.stringify({
+        width: 250,
+        durationMs: 4000,
+        title: titleText,
+        message: messageText,
+        iconSource: '',
+        backgroundSource: ''
+      });
+      new ShowToastAction().execute(toastJson);
+    } catch (e) {
+      console.warn('[GraphicsPresets] Failed to show toast: ' + e);
+    }
+  }
+
+  function setMcOption(name, val) {
+    try {
+      let opt = MinecraftOptions.getOption(name);
+      if (opt != null) {
+        opt.set(val + '');
       }
     } catch (e) {
-      console.info('[GraphicsPresets] ' + messageText);
+      console.warn('[GraphicsPresets] Could not set option ' + name + ': ' + e);
+    }
+  }
+
+  function updateStatusVariable(presetLabel, refreshRate) {
+    try {
+      VariableHandler.setVariable(
+        'graphics_preset_status',
+        '§8Active Preset: ' + presetLabel + ' §8| §7Detected Monitor: §a' + refreshRate + ' Hz'
+      );
+    } catch (e) {
+      console.warn('[GraphicsPresets] Could not update status variable: ' + e);
+    }
+  }
+
+  function applyShaderPreset(mode) {
+    if (Iris == null) return;
+    try {
+      let props = new Properties();
+      if (mode === 'low') {
+        props.setProperty('PROFILE', '2');
+        props.setProperty('RP_MODE', '0');
+        props.setProperty('POM', 'false');
+        props.setProperty('SHADOW_QUALITY', '1');
+        props.setProperty('shadowDistance', '96.0');
+        props.setProperty('LIGHTSHAFT_QUALI_DEFINE', '1');
+        props.setProperty('WATER_REFLECT_QUALITY', '0');
+        props.setProperty('BORDER_FOG', 'true');
+        props.setProperty('ATM_FOG_MULT', '0.95');
+      } else if (mode === 'medium') {
+        props.setProperty('PROFILE', '3');
+        props.setProperty('RP_MODE', '1');
+        props.setProperty('CUSTOM_PBR', 'true');
+        props.setProperty('POM', 'true');
+        props.setProperty('POM_DEPTH', '0.65');
+        props.setProperty('POM_QUALITY', '32');
+        props.setProperty('POM_DISTANCE', '24');
+        props.setProperty('POM_LIGHTING_MODE', '2');
+        props.setProperty('SHADOW_QUALITY', '2');
+        props.setProperty('shadowDistance', '160.0');
+        props.setProperty('LIGHTSHAFT_QUALI_DEFINE', '2');
+        props.setProperty('WATER_REFLECT_QUALITY', '1');
+        props.setProperty('BORDER_FOG', 'true');
+        props.setProperty('ATM_FOG_MULT', '0.95');
+      } else {
+        props.setProperty('PROFILE', '4');
+        props.setProperty('RP_MODE', '1');
+        props.setProperty('CUSTOM_PBR', 'true');
+        props.setProperty('POM', 'true');
+        props.setProperty('POM_DEPTH', '0.80');
+        props.setProperty('POM_QUALITY', '64');
+        props.setProperty('POM_DISTANCE', '32');
+        props.setProperty('POM_LIGHTING_MODE', '2');
+        props.setProperty('SHADOW_QUALITY', '3');
+        props.setProperty('shadowDistance', '192.0');
+        props.setProperty('LIGHTSHAFT_QUALI_DEFINE', '3');
+        props.setProperty('WATER_REFLECT_QUALITY', '2');
+        props.setProperty('BORDER_FOG', 'true');
+        props.setProperty('ATM_FOG_MULT', '0.95');
+      }
+      Iris.clearShaderPackOptionQueue();
+      Iris.queueDefaultShaderPackOptionValues();
+      Iris.queueShaderPackOptionsFromProperties(props);
+      Iris.reload();
+    } catch (e) {
+      console.warn('[GraphicsPresets] Shader preset reload warning: ' + e);
+    }
+  }
+
+  function applyDistantHorizonsPreset(mode) {
+    if (DhQuality == null || EDhApiVerticalQuality == null) return;
+    try {
+      if (mode === 'low') {
+        DhQuality.lodChunkRenderDistanceRadius.set(Integer.valueOf(32));
+        DhQuality.verticalQuality.set(EDhApiVerticalQuality.LOW);
+        if (DhFog != null) {
+          DhFog.farFogStart.set(Float.valueOf(0.4));
+          DhFog.farFogDensity.set(Float.valueOf(2.8));
+        }
+        if (DhThreading != null) {
+          DhThreading.numberOfThreads.set(Integer.valueOf(2));
+        }
+      } else if (mode === 'medium') {
+        DhQuality.lodChunkRenderDistanceRadius.set(Integer.valueOf(64));
+        DhQuality.verticalQuality.set(EDhApiVerticalQuality.MEDIUM);
+        if (DhFog != null) {
+          DhFog.farFogStart.set(Float.valueOf(0.5));
+          DhFog.farFogDensity.set(Float.valueOf(2.2));
+        }
+        if (DhThreading != null) {
+          DhThreading.numberOfThreads.set(Integer.valueOf(2));
+        }
+      } else {
+        DhQuality.lodChunkRenderDistanceRadius.set(Integer.valueOf(64));
+        DhQuality.verticalQuality.set(EDhApiVerticalQuality.HIGH);
+        if (DhFog != null) {
+          DhFog.farFogStart.set(Float.valueOf(0.6));
+          DhFog.farFogDensity.set(Float.valueOf(2.0));
+        }
+        if (DhThreading != null) {
+          DhThreading.numberOfThreads.set(Integer.valueOf(3));
+        }
+      }
+    } catch (e) {
+      console.warn('[GraphicsPresets] Distant Horizons update warning: ' + e);
     }
   }
 
   function applyPreset(presetName) {
     let mode = (presetName + '').toLowerCase().trim();
     if (mode !== 'low' && mode !== 'medium' && mode !== 'ultra') {
-      sendClientFeedback('§c[Graphics Presets] Unknown preset: ' + mode + '. Valid options: low, medium, ultra');
+      showPresetToast('§c§lGraphics Presets', '§7Unknown preset: ' + mode);
       return;
     }
 
     try {
-      let mc = Minecraft.getInstance();
-      let gameDir = mc.gameDirectory.toPath();
       let refreshRate = getDetectedRefreshRate();
-
-      // 1. Copy Shaderpack config
-      let presetShader = gameDir.resolve('config/presets/' + mode + '/ComplementaryUnbound_r5.9.3.zip.txt');
-      let targetShader = gameDir.resolve('shaderpacks/ComplementaryUnbound_r5.9.3.zip.txt');
-      if (Files.exists(presetShader)) {
-        Files.copy(presetShader, targetShader, StandardCopyOption.REPLACE_EXISTING);
-      }
-
-      // 2. Copy Distant Horizons config
-      let presetDH = gameDir.resolve('config/presets/' + mode + '/DistantHorizons.toml');
-      let targetDH = gameDir.resolve('config/DistantHorizons.toml');
-      if (Files.exists(presetDH)) {
-        Files.copy(presetDH, targetDH, StandardCopyOption.REPLACE_EXISTING);
-      }
-
-      // 3. Update options.txt and in-game Options
       let rd = 12;
       let sd = 8;
       if (mode === 'low') {
@@ -80,54 +203,72 @@
         sd = 10;
       }
 
-      try {
-        if (mc.options != null) {
-          if (mc.options.renderDistance != null) mc.options.renderDistance().set(rd);
-          if (mc.options.simulationDistance != null) mc.options.simulationDistance().set(sd);
-          if (mc.options.framerateLimit != null) mc.options.framerateLimit().set(refreshRate);
-          mc.options.save();
-        }
-      } catch (err) {
-        console.warn('[GraphicsPresets] Could not set options in-memory: ' + err);
-      }
+      // 1. Update Minecraft Options & save options.txt
+      setMcOption('renderDistance', rd);
+      setMcOption('simulationDistance', sd);
+      setMcOption('maxFps', refreshRate);
+      MinecraftOptions.save();
 
-      // Ensure options.txt file on disk is also updated
-      let optionsPath = gameDir.resolve('options.txt');
-      if (Files.exists(optionsPath)) {
-        let lines = Files.readAllLines(optionsPath);
-        let updatedLines = [];
-        for (let i = 0; i < lines.size(); i++) {
-          let line = lines.get(i);
-          if (line.startsWith('renderDistance:')) {
-            updatedLines.push('renderDistance:' + rd);
-          } else if (line.startsWith('simulationDistance:')) {
-            updatedLines.push('simulationDistance:' + sd);
-          } else if (line.startsWith('maxFps:')) {
-            updatedLines.push('maxFps:' + refreshRate);
-          } else {
-            updatedLines.push(line);
-          }
-        }
-        Files.write(optionsPath, updatedLines);
-      }
+      // 2. Update Distant Horizons live & save DistantHorizons.toml
+      applyDistantHorizonsPreset(mode);
 
-      let summary = '';
+      // 3. Update Complementary Shaders live & save shaderpacks config
+      applyShaderPreset(mode);
+
+      // 4. Update UI status & show toast notification
       if (mode === 'low') {
-        summary = '§eLow Preset Applied §7(DH 32 Chunks • POM Off • Fast Shadows • ' + refreshRate + ' FPS Lock)';
+        updateStatusVariable('§e§lLOW', refreshRate);
+        showPresetToast('§e§lLow Preset Applied', '§7DH 32 Chunks • POM Off • ' + refreshRate + ' FPS Lock');
       } else if (mode === 'medium') {
-        summary = '§bMedium Preset Applied §7(DH 64 Chunks • Patrix POM Balanced • ' + refreshRate + ' FPS Lock)';
+        updateStatusVariable('§b§lMEDIUM', refreshRate);
+        showPresetToast('§b§lMedium Preset Applied', '§7DH 64 Chunks • Balanced POM • ' + refreshRate + ' FPS Lock');
       } else {
-        summary = '§dUltra Preset Applied §7(DH 64 Chunks High • Patrix POM Deep • High Shadows • ' + refreshRate + ' FPS Lock)';
+        updateStatusVariable('§d§lULTRA', refreshRate);
+        showPresetToast('§d§lUltra Preset Applied', '§7DH 64 High • Deep POM • ' + refreshRate + ' FPS Lock');
       }
 
-      sendClientFeedback('§6[Graphics Presets] ' + summary);
+      console.info('[GraphicsPresets] Applied preset: ' + mode + ' (' + refreshRate + ' Hz)');
     } catch (e) {
       console.error('[GraphicsPresets] Failed to apply preset: ' + e);
-      sendClientFeedback('§c[Graphics Presets] Failed to apply preset: ' + e);
+      showPresetToast('§c§lGraphics Presets Error', '§7' + e);
     }
   }
 
-  // Intercept client chat commands
+  // Initialize status variable and clear any stale request
+  try {
+    VariableHandler.setVariable('graphics_preset_request', '');
+    if (!VariableHandler.variableExists('graphics_preset_status')) {
+      updateStatusVariable('§b§lMEDIUM (Default)', getDetectedRefreshRate());
+    }
+  } catch (e) {
+    console.warn('[GraphicsPresets] Init variable warning: ' + e);
+  }
+
+  // Poll FancyMenu variable requests on every client tick (works in both menus & worlds)
+  let pollCounter = 0;
+  let pollTask = function() {
+    try {
+      pollCounter++;
+      if (pollCounter >= 4) {
+        pollCounter = 0;
+        let req = VariableHandler.getVariableValue('graphics_preset_request');
+        if (req != null) {
+          let trimmed = (req + '').trim().toLowerCase();
+          if (trimmed === 'low' || trimmed === 'medium' || trimmed === 'ultra') {
+            VariableHandler.setVariable('graphics_preset_request', '');
+            applyPreset(trimmed);
+          }
+        }
+      }
+    } catch (e) {
+      // Ignore transient tick errors
+    } finally {
+      MainThreadTaskExecutor.executeInMainThread(pollTask, ExecuteTiming.POST_CLIENT_TICK);
+    }
+  };
+  MainThreadTaskExecutor.executeInMainThread(pollTask, ExecuteTiming.POST_CLIENT_TICK);
+
+  // Also support /preset <low|medium|ultra> in chat
   ClientEvents.chat(function(event) {
     let msg = (event.message + '').trim();
     if (msg.startsWith('/preset ') || msg === '/preset') {
@@ -135,8 +276,7 @@
       let parts = msg.split(' ');
       if (parts.length < 2) {
         let rate = getDetectedRefreshRate();
-        sendClientFeedback('§6[Graphics Presets] §7Detected Display: §a' + rate + ' Hz');
-        sendClientFeedback('§7Usage: §f/preset <low | medium | ultra>');
+        showPresetToast('§6§lGraphics Presets', '§7Detected Display: §a' + rate + ' Hz §8| §f/preset <low|medium|ultra>');
         return;
       }
       applyPreset(parts[1]);
@@ -146,15 +286,11 @@
   // Auto-lock framerate to monitor refresh rate on world join
   ClientEvents.loggedIn(function(event) {
     try {
-      let mc = Minecraft.getInstance();
       let rate = getDetectedRefreshRate();
-      if (mc.options != null && rate > 0) {
-        let cur = mc.options.framerateLimit().get();
-        if (cur !== rate) {
-          mc.options.framerateLimit().set(rate);
-          mc.options.save();
-          console.info('[GraphicsPresets] Synchronized framerate cap to monitor: ' + rate + ' FPS');
-        }
+      if (rate > 0) {
+        setMcOption('maxFps', rate);
+        MinecraftOptions.save();
+        console.info('[GraphicsPresets] Synchronized framerate cap to monitor: ' + rate + ' FPS');
       }
     } catch (e) {
       console.warn('[GraphicsPresets] Startup refresh rate sync note: ' + e);
