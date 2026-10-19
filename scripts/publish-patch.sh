@@ -20,7 +20,7 @@ TEMP_DIFF_JSON="$OUTPUT_DIR/diff-v${NEW_VERSION}.json"
 mkdir -p "$OUTPUT_DIR"
 cd "$ROOT_DIR"
 
-export GH_TOKEN="${GH_TOKEN:-$(gh auth token 2>/dev/null || mise exec -- gh auth token 2>/dev/null || true)}"
+export GH_TOKEN="${GH_TOKEN:-$(gh auth token 2>/dev/null || mise exec -- gh auth token 2>/dev/null || cat ~/.config/gh/token 2>/dev/null || true)}"
 
 echo "=== Computing Differential Changes for v${NEW_VERSION} ==="
 
