@@ -41,7 +41,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"false"
-resourcePacks:["vanilla","tacz_resources","builtin/towntalk","mod_resources","file/FancyMenu_Assets.zip","Moonlight Mods Dynamic Assets","fabric"]
+resourcePacks:["vanilla","tacz_resources","builtin/towntalk","mod_resources","file/FancyMenu_Assets.zip","file/Create_Soundtrack.zip","Moonlight Mods Dynamic Assets","fabric"]
 incompatibleResourcePacks:["builtin/towntalk"]
 lastServer:
 lang:en_us

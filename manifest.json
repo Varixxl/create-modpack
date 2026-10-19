@@ -1,5 +1,5 @@
 {
-  "latest_version": "1.0.18",
+  "latest_version": "1.0.19",
   "base_package": {
     "version": "1.0.0",
     "url": "https://github.com/JaviDaBomb/create-modpack/releases/download/v1.0.0/base-v1.0.0.zip",
@@ -155,6 +155,14 @@
       "sha256": "c5d12e694de8bc729ad3f1f6b77735f5d0237548d1a3b63f1f0a01d395e38e8a",
       "delete_files": [],
       "changelog": "Added 109-song ambient soundtrack expansion for menus and in-game background music"
+    },
+    {
+      "from_version": "1.0.18",
+      "to_version": "1.0.19",
+      "url": "https://github.com/JaviDaBomb/create-modpack/releases/download/v1.0.19/patch-v1.0.19.zip",
+      "sha256": "16d05bf4743f8fa51a974509026ef21f0f8707cf7c4428be7e0c25317da14fb2",
+      "delete_files": [],
+      "changelog": "Fix background and menu soundtrack loading via Create_Soundtrack resource pack"
     }
   ]
 }
