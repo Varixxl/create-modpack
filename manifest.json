@@ -1,5 +1,5 @@
 {
-  "latest_version": "1.0.20",
+  "latest_version": "1.0.21",
   "base_package": {
     "version": "1.0.0",
     "url": "https://github.com/JaviDaBomb/create-modpack/releases/download/v1.0.0/base-v1.0.0.zip",
@@ -171,6 +171,14 @@
       "sha256": "f685218465e0e960f8c7318f5a064745f937f4fce25387c4d2efb28c87138391",
       "delete_files": [],
       "changelog": "Enable streaming vanilla menu music and include wanderstop in soundtrack pack"
+    },
+    {
+      "from_version": "1.0.20",
+      "to_version": "1.0.21",
+      "url": "https://github.com/JaviDaBomb/create-modpack/releases/download/v1.0.21/patch-v1.0.21.zip",
+      "sha256": "b72f1884a2a293b597409bf0866566c301cd1c98f2ef9eea57249db98b39dedd",
+      "delete_files": [],
+      "changelog": "Tuned ambient and menu music transition delay for continuous cycling"
     }
   ]
 }
